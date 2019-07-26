@@ -152,7 +152,7 @@ The zoos need to know their total animal population across the United States.  F
 let populationTotal = zooAnimals.reduce((acc, pop) => {
   return acc + pop.population;
 }, 0);
-console.log(populationTotal);
+console.log("The total population is " + populationTotal + " units.");
 
 /* 
 
